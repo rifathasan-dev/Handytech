@@ -90,7 +90,7 @@ header.site-header .mobile-menu[hidden] { display: none; }
 .footer-legal a { color: var(--paper); font-weight: 700; }
 .footer-legal a:hover { color: var(--butter); }
 /* Keyboard focus visibility */
-a:focus-visible, button:focus-visible, summary:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 /* ---- Tablet (<=1024px): relax multi-column sections earlier ---- */
 @media (max-width: 1024px) {
   .service-grid { grid-template-columns: repeat(2, 1fr); }
