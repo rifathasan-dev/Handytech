@@ -16,6 +16,9 @@
 @media(max-width:560px){.service-list{grid-template-columns:1fr}.contact-page-list a,.contact-page-list div{grid-template-columns:1fr;gap:6px}.contact-page-list b{display:none}.plain-page{padding:56px 0 80px}.inner-hero h1{font-size:clamp(38px,11vw,46px)}.project-tile{min-height:300px}.quote-page-form .form-row{gap:0}}
 /* ---- Service detail upgrades: prices, checklists, notes ---- */
 .service-list-item .price{display:block;margin-top:10px;color:var(--moss);font-size:12px;font-weight:800;letter-spacing:.02em}
+.service-list-item.others-item{background:var(--moss);border-color:var(--moss);color:#fff}
+.service-list-item.others-item p{color:rgba(255,255,255,.75)}
+.service-list-item.others-item .price a{color:var(--lime)}
 .check-list{list-style:none;margin:22px 0 0;padding:0;display:grid;gap:10px}
 .check-list li{position:relative;padding-left:22px;color:#4c5a52;font-size:14px;line-height:1.65}
 .check-list li:before{content:'\2192';position:absolute;left:0;color:var(--coral);font-weight:800}
