@@ -33,6 +33,7 @@ h2 { font-size: clamp(2.7rem, 5vw, 4.7rem); }.section-heading { display: flex; a
 .shared-nav > a, .services-trigger { color: var(--ink); transition: color .2s; }
 .shared-nav > a:hover, .services-trigger:hover { color: var(--accent); }
 .shared-actions { display: flex; align-items: center; justify-self: end; gap: 14px; }
+.shared-actions .button svg { width: 15px; height: 15px; }
 .services-menu { position: relative; }
 .services-trigger { display: inline-flex; align-items: center; gap: 7px; padding: 9px 0; border: 0; background: transparent; cursor: pointer; font: inherit; }
 .services-trigger span { display: inline-flex; color: var(--accent); transition: transform .2s; }
