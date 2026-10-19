@@ -47,3 +47,26 @@
 .faq-split h2{font-size:clamp(28px,3.4vw,44px)}
 .faq-intro p{margin:18px 0 0;font-size:14px;line-height:1.7;color:#64736a}
 @media(max-width:800px){.faq-split{grid-template-columns:1fr}}
+
+/* ---- Inner hero: full-bleed photo background on mobile (mirrors the homepage hero) ---- */
+@media(max-width:800px){
+  .inner-hero{position:relative;isolation:isolate}
+  .inner-hero-image{
+    position:absolute;inset:0;z-index:0;
+    width:100%;max-width:none;max-height:none;height:100%;
+    aspect-ratio:auto;margin:0;overflow:hidden;background:var(--butter);
+  }
+  .inner-hero-image img{width:100%;height:100%;object-fit:cover;object-position:center 30%;filter:saturate(.95) contrast(1.03);border-bottom:0}
+  .inner-hero-image::after{
+    content:'';position:absolute;inset:0;pointer-events:none;
+    background:linear-gradient(to bottom, rgba(244,240,232,.22) 0%, rgba(244,240,232,.62) 16%, rgba(244,240,232,.78) 32%, rgba(244,240,232,.8) 76%, rgba(244,240,232,.55) 90%, rgba(244,240,232,.62) 100%);
+  }
+  .inner-hero-image .floating-note,.inner-hero-image .hero-stamp{display:none}
+  .inner-hero .breadcrumbs{position:relative;z-index:2;color:#3f4b44;text-shadow:0 1px 12px rgba(244,240,232,.98)}
+  .inner-hero-grid{grid-template-columns:1fr;gap:0}
+  .inner-hero-grid > *:not(.inner-hero-image){position:relative;z-index:2}
+  .inner-hero .inner-label{text-shadow:0 1px 12px rgba(244,240,232,.98)}
+  .inner-hero h1{text-shadow:0 2px 22px rgba(244,240,232,.95), 0 1px 3px rgba(244,240,232,.9)}
+  .inner-hero-copy{color:rgba(32,35,31,.88);text-shadow:0 1px 14px rgba(244,240,232,.98)}
+  .hero-facts span{color:var(--ink);text-shadow:0 1px 12px rgba(244,240,232,.98)}
+}
