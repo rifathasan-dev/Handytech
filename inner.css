@@ -1,6 +1,15 @@
 .inner-main{background:var(--paper)}.inner-hero{display:flex;align-items:center;justify-content:center;min-height:calc(100vh - 76px);min-height:calc(100svh - 76px);padding:44px 0;border-bottom:1px solid var(--line)}.breadcrumbs{display:flex;gap:10px;align-items:center;color:#718078;font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;margin-bottom:26px}.breadcrumbs span{color:var(--coral)}.inner-hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(300px,520px);gap:80px;align-items:center}.inner-hero h1{font-size:clamp(46px,6vw,83px);margin:0 0 22px;letter-spacing:-.05em;line-height:1.03}.inner-hero h1 em{color:var(--accent);font-style:normal}.inner-hero-copy{max-width:570px;color:#5c6b63;font-size:17px;line-height:1.75}.inner-hero-image{aspect-ratio:4/5;width:100%;max-height:72vh;overflow:visible;background:var(--butter)}.inner-hero-image img{display:block;width:100%;height:100%;object-fit:cover;filter:saturate(.8)}.inner-hero-image .hero-stamp{top:16px;right:16px}.inner-label{display:inline-flex;gap:10px;align-items:center;margin-bottom:18px;color:var(--moss);font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}.inner-label:before{content:'';width:7px;height:7px;background:var(--coral);border-radius:50%}.inner-section{padding:92px 0}.inner-section h2{font-size:clamp(34px,4.2vw,55px);margin:0 0 23px}.inner-section p{color:#64736a;line-height:1.8;font-size:15px}.service-detail-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:110px}.service-list{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line)}.service-list-item{background:var(--paper);padding:25px}.service-list-item svg{width:27px;height:27px;stroke:var(--moss);margin-bottom:22px}.service-list-item h3{font-size:16px;letter-spacing:-.03em;margin:0 0 8px}.service-list-item p{font-size:12px;line-height:1.6;margin:0}.inner-band{background:var(--moss);color:white;padding:78px 0}.inner-band .inner-label{color:var(--lime)}.inner-band h2{font-size:clamp(34px,4.5vw,58px);margin:0;max-width:650px}.inner-band h2 em{color:var(--lime)}.split-copy{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start}.inner-band .split-copy p{color:#d4e1d8}.related-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.related-card{border:1px solid var(--line);padding:25px;min-height:190px;transition:transform .2s,background .2s}.related-card:hover{background:#fff;transform:translateY(-3px)}.related-card svg{width:25px;height:25px;stroke:var(--coral);margin-bottom:35px}.related-card h3{font-size:18px;letter-spacing:-.04em;margin:0 0 7px}.related-card p{font-size:12px;margin:0}.related-card.all-services{background:var(--moss);border-color:var(--moss);color:#fff}.related-card.all-services:hover{background:var(--ink);border-color:var(--ink);color:#fff}.plain-page{padding:78px 0 110px}.plain-page .narrow{max-width:790px}.plain-page h1{font-size:clamp(44px,6vw,70px);margin:0 0 26px}.plain-page h2{font-size:28px;margin:46px 0 15px}.plain-page p,.plain-page li{color:#64736a;font-size:15px;line-height:1.8}.plain-page ul{padding-left:20px}.project-list{display:grid;grid-template-columns:1fr 1fr;gap:18px}.project-list>.project-tile:last-child:nth-child(odd){grid-column:1/-1;min-height:300px}.project-tile{min-height:370px;position:relative;overflow:hidden;background:var(--moss);color:white}.project-tile img{width:100%;height:100%;position:absolute;object-fit:cover;opacity:.75;transition:transform .4s}.project-tile:hover img{transform:scale(1.04)}.project-tile .project-meta{position:absolute;left:0;right:0;bottom:0;padding:27px;background:linear-gradient(transparent,rgba(19,35,31,.92));display:flex;flex-direction:column;gap:7px}.project-tile .project-meta span{color:var(--lime);font-size:10px;text-transform:uppercase;letter-spacing:.12em;font-weight:800}.project-tile .project-meta strong{font-size:21px}.contact-page-grid{display:grid;grid-template-columns:.7fr 1.3fr;gap:110px}.contact-page-list{border-top:1px solid var(--line)}.contact-page-list a,.contact-page-list div{display:grid;grid-template-columns:120px 1fr 20px;gap:18px;padding:23px 0;border-bottom:1px solid var(--line);align-items:center}.contact-page-list span{font-size:10px;text-transform:uppercase;letter-spacing:.12em;color:var(--moss);font-weight:800}.contact-page-list strong{font-size:16px}.contact-page-list b{font-size:18px;font-weight:400}.quote-page-form{max-width:780px;background:white;border:1px solid var(--line);padding:35px}.quote-page-form .form-row{display:grid;grid-template-columns:1fr 1fr;gap:18px}.quote-page-form label{display:flex;flex-direction:column;gap:8px;font-size:11px;font-weight:800;margin-bottom:20px}.quote-page-form input,.quote-page-form select,.quote-page-form textarea{width:100%;border:0;border-bottom:1px solid #bcc6bd;padding:10px 0;background:transparent;font:inherit;font-size:14px;outline:none}.quote-page-form input:focus,.quote-page-form select:focus,.quote-page-form textarea:focus{border-color:var(--moss)}.quote-page-form textarea{resize:vertical}.quote-page-form button{border:0;cursor:pointer}.quote-page-form .status{color:var(--moss);font-size:12px;min-height:18px}.icon-link{display:inline-flex;align-items:center;gap:10px;color:var(--moss);font-size:13px;font-weight:800}.icon-link svg{width:16px;height:16px}.inner-cta{display:flex;justify-content:space-between;align-items:center;gap:25px}.inner-cta h2{margin:0;font-size:clamp(34px,4.5vw,58px)}.inner-cta h2 em{color:var(--lime)}.inner-cta .button{flex:0 0 auto}@media(max-width:1100px){.inner-hero-grid,.service-detail-grid{gap:48px}.service-detail-grid{gap:60px}.inner-hero-image .hero-stamp{right:12px;top:12px}}
 @media(max-width:800px){.inner-hero{min-height:calc(100svh - 68px);padding:40px 0 56px}.inner-hero-grid,.service-detail-grid,.split-copy,.contact-page-grid{grid-template-columns:1fr;gap:42px}.inner-hero-image{height:auto;max-height:78vh;width:min(100%,470px);margin:0 auto}.inner-section{padding:70px 0}.related-grid{grid-template-columns:1fr}.project-list{grid-template-columns:1fr}.inner-cta{display:block}.inner-cta .button{margin-top:25px}.quote-page-form{padding:23px 18px}.quote-page-form .form-row{grid-template-columns:1fr;gap:0}}
 /* ---- Layout + missing-component fixes ---- */
+.quote-page-form button{font-family:inherit}
+.quote-page-form .attachment-note{font-size:12px;line-height:1.5;color:#64736a}
+.quote-page-form .status:empty{display:none}
+.quote-page-form .status:not(:empty){margin:12px 0 0}
+.quote-page-form{padding-bottom:24px}
+/* Service directory: match homepage card typography and icons. */
+a.service-list-item svg{display:block;width:30px;height:30px;stroke:var(--accent)}
+a.service-list-item h3{margin:0 0 9px;font-size:20px;letter-spacing:-.04em}
+a.service-list-item p{font-size:13px;line-height:1.55;color:rgba(32,35,31,.6)}
 .shell{width:min(1160px,calc(100% - 48px));margin:0 auto}
 .hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
 .section-intro{max-width:310px;margin:0 0 5px;color:rgba(32,35,31,.58);font-size:15px;line-height:1.7}
@@ -47,6 +56,88 @@
 .faq-split h2{font-size:clamp(28px,3.4vw,44px)}
 .faq-intro p{margin:18px 0 0;font-size:14px;line-height:1.7;color:#64736a}
 @media(max-width:800px){.faq-split{grid-template-columns:1fr}}
+
+/* ---- Reviews page ---- */
+.review-intro{max-width:640px;margin-bottom:52px}
+.review-intro h1{font-size:clamp(44px,6vw,70px);margin:0 0 26px;letter-spacing:-.05em;line-height:1.03}
+.review-intro h1 em{color:var(--accent);font-style:normal}
+.review-stats{border-top:1px solid var(--line);margin-bottom:60px}
+.review-expect{margin-bottom:72px;display:grid;grid-template-columns:.85fr 1.15fr;gap:60px;align-items:start}
+.review-expect h2{font-size:clamp(30px,3.6vw,46px);margin:0;letter-spacing:-.04em;line-height:1.1}
+.review-expect h2 em{color:var(--accent);font-style:normal}
+.review-expect .check-list{max-width:none;grid-template-columns:1fr 1fr;gap:14px 34px;margin-top:4px}
+.review-contact{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center;border-top:1px solid var(--line);padding-top:44px}
+.review-contact h2{font-size:clamp(28px,3.4vw,44px);margin:0;letter-spacing:-.04em;line-height:1.1}
+.review-contact h2 em{color:var(--accent);font-style:normal}
+.review-contact .contact-mini{gap:16px}
+/* The label column is 50px wide, but "WHATSAPP" needs 77px at this size, so it
+   overflowed the box and shoved its value out of line with the other two.
+   Widen the column to fit and right-align the labels instead, which keeps all
+   three values in a column without anything clipping off the page edge. */
+.review-contact .contact-mini span{width:78px;text-align:right}
+
+/* Action tiles: copy on the left, button on the right, no dead space */
+.review-cards{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:72px}
+.review-card{display:flex;align-items:center;justify-content:space-between;gap:26px;padding:26px 28px;background:#fff;border:1px solid var(--line);transition:border-color .25s}
+.review-card:hover{border-color:var(--accent)}
+.review-card-copy{min-width:0}
+.review-card h2{font-size:20px;letter-spacing:-.04em;margin:0 0 8px}
+.review-card p{margin:0;font-size:13px;line-height:1.6;color:rgba(32,35,31,.62)}
+.review-card .button{flex:0 0 auto;white-space:nowrap}
+.review-meta{display:block;margin-top:10px;color:#8a968e;font-size:11px;font-weight:700}
+
+/* Live Google reviews */
+.review-live{margin-bottom:72px}
+.review-live[hidden]{display:none}
+.review-live-head{margin-bottom:26px}
+.review-live-head h2{font-size:clamp(30px,3.6vw,46px);margin:0 0 20px;letter-spacing:-.04em;line-height:1.1}
+.review-live-head h2 em{color:var(--accent);font-style:normal}
+
+/* Rating block, built from the site's .trust-stat idiom */
+.review-score{display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:16px 0 0}
+.review-score .review-rating{gap:3px}
+.review-score .review-star{font-size:20px}
+.review-score strong{font-size:clamp(1.9rem,3vw,2.6rem);letter-spacing:-.06em;line-height:1;color:var(--ink)}
+.review-score strong span{color:var(--accent)}
+.review-score small{color:rgba(32,35,31,.58);font-size:12px;font-weight:700}
+
+/* Cards follow the .service-card rhythm: mark, body, foot with coral arrow */
+.review-list{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.review-item{display:flex;flex-direction:column;padding:25px;border:1px solid var(--line);background:rgba(255,255,255,.16);transition:background .25s,transform .25s}
+.review-item:hover{background:var(--butter);transform:translateY(-4px)}
+.review-item-mark{margin-bottom:16px}
+.review-item-mark .review-rating{gap:3px}
+.review-item-mark .review-star{font-size:18px}
+.review-text{margin:0 0 20px;font-size:15px;line-height:1.6;color:var(--ink);flex:1}
+.review-item-foot{display:flex;align-items:center;gap:12px;margin-top:auto;padding-top:16px;border-top:1px solid var(--line)}
+.review-avatar{width:34px;height:34px;border-radius:50%;object-fit:cover;flex:0 0 34px;background:var(--paper)}
+.review-avatar-initials{display:grid;place-items:center;font-size:14px;font-weight:800;color:#fff;background:var(--moss)}
+.review-item-who{display:flex;flex-direction:column;min-width:0;flex:1}
+.review-author{font-size:14px;font-weight:800;letter-spacing:-.02em;color:var(--ink)}
+a.review-author:hover{color:var(--accent)}
+.review-when{font-size:12px;color:rgba(32,35,31,.55);margin-top:2px}
+.review-arrow{color:var(--accent);font-size:19px;line-height:1;flex:0 0 auto}
+.review-arrow:hover{color:var(--ink)}
+.review-rating{display:inline-flex;gap:2px;line-height:1}
+.review-star{color:#d8d3c8;font-size:17px}
+.review-star.is-on{color:var(--butter)}
+.review-loading{margin:0;color:#8a968e;font-size:14px}
+.review-attrib{margin:20px 0 0;font-size:12px;color:rgba(32,35,31,.55)}
+.review-attrib a{color:var(--moss);font-weight:700}
+/* All mobile overrides for the reviews page live in one block at the end of
+   this section, so a base rule declared later can never beat them. */
+@media(max-width:800px){
+  .review-intro{margin-bottom:38px}
+  .review-stats{margin-bottom:44px}
+  .review-live{margin-bottom:52px}
+  .review-list{grid-template-columns:1fr}
+  .review-cards{grid-template-columns:1fr;margin-bottom:56px}
+  .review-card{display:block}
+  .review-card .button{margin-top:18px}
+  .review-expect{margin-bottom:52px;grid-template-columns:1fr;gap:24px}
+  .review-expect .check-list{grid-template-columns:1fr}
+  .review-contact{grid-template-columns:1fr;gap:28px}
+}
 
 /* ---- Inner hero: full-bleed photo background on mobile (mirrors the homepage hero) ---- */
 @media(max-width:800px){

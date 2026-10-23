@@ -1,0 +1,10 @@
+# Google Places API credentials - never commit
+reviews-config.php
+
+# Server-side review cache
+reviews-cache/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp

@@ -24,11 +24,16 @@ Options -Indexes
   # canonical: redirect /page.html to clean /page
   RewriteCond %{THE_REQUEST} \s/+(.+?)\.html[\s?] [NC]
   RewriteRule ^ /%1 [R=301,L,NE]
-  # drop trailing slash for one canonical form (skip real files)
+  # Deny the reviews cache directory before any canonicalisation runs.
+  RewriteRule ^reviews-cache - [F,L]
+  # Keep the services directory slash so relative card links resolve correctly.
+  RewriteRule ^services$ /services/ [R=301,L,NE]
+  # drop trailing slash for one canonical form (skip real files and directories)
   RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
   RewriteRule ^(.+)/$ /$1 [R=301,L,NE]
-  # /services is a folder on disk but a page on the site
-  RewriteRule ^services/?$ services/index.html [NC,L]
+  # Serve the services directory landing page.
+  RewriteRule ^services/$ services/index.html [L]
   # resolve: serve page.html content for clean /page URLs
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteCond %{REQUEST_FILENAME}\.html -f
@@ -67,3 +72,8 @@ Options -Indexes
 <Files ".htaccess">
   Require all denied
 </Files>
+
+# --- Reviews: hide the API config and the server-side cache ---
+<FilesMatch "^(reviews-config\.php|reviews\.json)$">
+  Require all denied
+</FilesMatch>

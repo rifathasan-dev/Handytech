@@ -11,7 +11,7 @@ Open `index.html` directly in a browser, or serve the folder with any static web
 - `/` home (`index.html` on disk)
 - `services/` service index (`index.html` inside the folder)
 - `services/` six service detail pages
-- `projects`, `about`, `faq`, `contact`, `quote`
+- `projects`, `about`, `review`, `contact`, `quote`
 - `privacy`, `terms`
 
 ## Business data
